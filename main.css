@@ -199,3 +199,30 @@ main{
     font-size: 24px;
     line-height: 29.26px;
 }
+
+.dev_prog_docs{
+    margin-top: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+}
+
+
+.doc_box{
+    position: relative;
+    max-width: 547px;
+    height: 190px;
+    padding: 30px 37px;
+    border: 1px solid #dadada;
+}
+
+.doc_file{
+    position: absolute;
+    bottom: 30px;
+    right: 37px;
+    width: 31.25px;
+    height: auto;
+}
