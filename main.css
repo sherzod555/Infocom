@@ -1,0 +1,201 @@
+/* font-family: "Montserrat", sans-serif; */
+
+/* font-family: "Inter", sans-serif; */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+li {
+    list-style: none;
+}
+
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+
+
+.container {
+    max-width: 1920px;
+    margin: 0 auto;
+
+}
+
+
+/* CSS for NAVIGATION */
+.nav_inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 37px 56.6px 28px 38.6px;
+    text-transform: uppercase;
+}
+
+.nav_left {
+    display: flex;
+    align-items: center;
+    column-gap: 40px;
+}
+
+.nav_title {
+    width: 306px;
+    font-size: 19px;
+    line-height: 23.16px;
+}
+
+.nav-right {
+    display: flex;
+    column-gap: 56px;
+    align-items: center;
+    font-size: 20px;
+    line-height: 24.38px;
+    font-weight: 400;
+}
+
+.nav_menu {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.lang_menu {
+    row-gap: 12px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* CSS for INTRO */
+
+.intro {
+    display: flex;
+    height: 854px;
+}
+
+.intro_social {
+    padding-left: 51.16px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    position: relative;
+}
+
+.sm_list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 39px;
+    z-index: 100;
+}
+
+
+.sm_icons {
+    height: 40px;
+    width: 40px;
+}
+
+.intro_grayBox {
+    background: #d9d9d9;
+    width: 100px;
+    height: 260px;
+    position: absolute;
+    bottom: 20px;
+}
+
+.intro_mainLogo {
+    margin-left: 48px;
+    margin-right: 42px;
+    width: 582px;
+    height: 100%;
+    border: 1px solid #c4c4c4;
+    border-right: 0;
+    display: flex;
+    align-items: end;
+
+}
+
+
+.intro_logo_img{
+    height: 91.15px;
+    width: 460.8px;
+    margin-left: 86px;
+    margin-bottom: 153px;
+}
+
+.intro_desc {
+   
+    background: linear-gradient(to right, #c7c7c7 0%, #2150BC 25%);
+    width: 1156px;
+    color: #ffffff;
+    position: relative;
+}
+
+.text_part{
+    margin-left: 106px;
+    margin-bottom: 76px;
+    width: 493px;
+    position: absolute;
+    bottom: 0;
+}
+
+.intro_desc_title{
+text-transform: uppercase;
+font-weight: 700;
+font-size: 50px;
+line-height: 60.95px;
+margin-bottom: 9px;
+}
+
+.intro_desc_content{
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 24.38px;
+}
+
+.desc_highlights{
+    font-weight: 700;
+}
+
+
+
+
+main{
+    padding: 120px 140px 0;
+}
+
+
+.dev_prog_title{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48.76px;
+    color: #0094CB;
+}
+
+.dev_prog_desc{
+    padding-top: 9px;
+    font-size: 24px;
+    line-height: 29.26px;
+}
