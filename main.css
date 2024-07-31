@@ -199,6 +199,7 @@ main {
 
 
 .section_title {
+    text-transform: uppercase;
     font-size: 40px;
     font-weight: 700;
     line-height: 48.76px;
@@ -246,10 +247,6 @@ main {
 
 .tl-his-title {
     text-align: right;
-}
-
-.tl-his-title h2 {
-    text-transform: uppercase;
 }
 
 
@@ -307,10 +304,6 @@ main {
     text-align: right;
 }
 
-.uz_poz_heading .section_title,
-.abrasion .section_title {
-    text-transform: uppercase;
-}
 
 .abrasion{
     margin-top: 558px;
@@ -372,4 +365,5 @@ main {
     margin-top: 14px;
     font-size: 24px;
     line-height: 29px;
+    margin-bottom: 168px;
 }
