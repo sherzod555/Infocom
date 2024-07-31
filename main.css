@@ -184,17 +184,35 @@ margin-bottom: 9px;
 
 main{
     padding: 120px 140px 0;
+    background-image: url(./img/bg-1-full.png);
+    background-size: auto 1380px;
+    background-repeat: no-repeat;
+    background-position: 1215px 115px;
 }
 
 
-.dev_prog_title{
+
+/* .bg_1full{
+    height: 1380px;
+    width: auto;
+    
+}
+
+.bg_2full{
+    height: 510px;
+    width: auto;
+
+} */
+
+
+.section_title{
     font-size: 40px;
     font-weight: 700;
     line-height: 48.76px;
     color: #0094CB;
 }
 
-.dev_prog_desc{
+.section_desc{
     padding-top: 9px;
     font-size: 24px;
     line-height: 29.26px;
@@ -217,6 +235,7 @@ main{
     height: 190px;
     padding: 30px 37px;
     border: 1px solid #dadada;
+    background-color: #ffffff;
 }
 
 .doc_file{
@@ -225,4 +244,36 @@ main{
     right: 37px;
     width: 31.25px;
     height: auto;
+}
+
+.tl-history{
+    padding-top: 137px;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-rows: repeat(2, auto);
+    width: 1097px;
+
+    background-image: url(./img/steps.svg);
+    background-size: 1097.37px 345.33px;
+}
+
+.row1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px; /* Optional: add space between columns */
+}
+
+.row2 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px; /* Optional: add space between columns */
+}
+
+.grid-item {
+    
+    border: 1px solid #ccc;
+    text-align: center;
 }
