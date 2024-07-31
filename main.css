@@ -183,26 +183,19 @@ margin-bottom: 9px;
 
 
 main{
-    padding: 120px 140px 0;
-    background-image: url(./img/bg-1-full.png);
-    background-size: auto 1380px;
+    padding: 0 140px;
+    background-image: url(./img/bg-1-full.png), url(./img/bg-2-full.png);
+    background-size: auto 1600px;
     background-repeat: no-repeat;
-    background-position: 1215px 115px;
+    background-position: 1125px 90px, -685px 1090px;
+
 }
 
+.main_section{
+    padding: 120px 0;
 
-
-/* .bg_1full{
-    height: 1380px;
-    width: auto;
-    
 }
 
-.bg_2full{
-    height: 510px;
-    width: auto;
-
-} */
 
 
 .section_title{
@@ -248,32 +241,75 @@ main{
 
 .tl-history{
     padding-top: 137px;
+    width: 1141px;
 }
+
+.tl-his-title{
+    text-align: right;
+}
+
+.tl-his-title h2{
+    text-transform: uppercase;
+}
+
 
 
 .grid-container {
     display: grid;
+    justify-content: space-around;
     grid-template-rows: repeat(2, auto);
-    width: 1097px;
-
+    padding-top: 59px;
     background-image: url(./img/steps.svg);
-    background-size: 1097.37px 345.33px;
+    background-size: 1120px auto;
+    background-repeat: no-repeat;
+    background-position: 5px 140px;
 }
 
 .row1 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 10px; /* Optional: add space between columns */
+    column-gap: 35px;
 }
+
+
 
 .row2 {
+    margin-top: 115px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 10px; /* Optional: add space between columns */
 }
 
+
 .grid-item {
-    
-    border: 1px solid #ccc;
+    font-family: "Inter", sans-serif;
     text-align: center;
 }
+
+.grid_step{
+    margin: 0 auto;
+    max-width: 58px;
+    font-size: 23px;
+    line-height: 28px;
+}
+
+.grid_year{
+    padding: 70.75px 0 12.17px;
+    color: #0094CB;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+
+.uz_poz_heading{
+    padding-top: 105px;
+    width: 560px;
+    margin: 0 auto;
+    text-align: right;
+}
+
+.uz_poz_heading .section_title, .abrasion .section_title{
+   text-transform: uppercase;
+}
+
+
+
