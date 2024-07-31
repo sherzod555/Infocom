@@ -138,7 +138,7 @@ body {
 }
 
 
-.intro_logo_img{
+.intro_logo_img {
     height: 91.15px;
     width: 460.8px;
     margin-left: 86px;
@@ -146,14 +146,14 @@ body {
 }
 
 .intro_desc {
-   
+
     background: linear-gradient(to right, #c7c7c7 0%, #2150BC 25%);
     width: 1156px;
     color: #ffffff;
     position: relative;
 }
 
-.text_part{
+.text_part {
     margin-left: 106px;
     margin-bottom: 76px;
     width: 493px;
@@ -161,28 +161,28 @@ body {
     bottom: 0;
 }
 
-.intro_desc_title{
-text-transform: uppercase;
-font-weight: 700;
-font-size: 50px;
-line-height: 60.95px;
-margin-bottom: 9px;
+.intro_desc_title {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60.95px;
+    margin-bottom: 9px;
 }
 
-.intro_desc_content{
+.intro_desc_content {
     font-size: 20px;
     font-weight: 300;
     line-height: 24.38px;
 }
 
-.desc_highlights{
+.desc_highlights {
     font-weight: 700;
 }
 
 
 
 
-main{
+main {
     padding: 0 140px;
     background-image: url(./img/bg-1-full.png), url(./img/bg-2-full.png);
     background-size: auto 1600px;
@@ -191,27 +191,27 @@ main{
 
 }
 
-.main_section{
+.main_section {
     padding: 120px 0;
 
 }
 
 
 
-.section_title{
+.section_title {
     font-size: 40px;
     font-weight: 700;
     line-height: 48.76px;
     color: #0094CB;
 }
 
-.section_desc{
+.section_desc {
     padding-top: 9px;
     font-size: 24px;
     line-height: 29.26px;
 }
 
-.dev_prog_docs{
+.dev_prog_docs {
     margin-top: 32px;
     display: flex;
     align-items: center;
@@ -222,7 +222,7 @@ main{
 }
 
 
-.doc_box{
+.doc_box {
     position: relative;
     max-width: 547px;
     height: 190px;
@@ -231,7 +231,7 @@ main{
     background-color: #ffffff;
 }
 
-.doc_file{
+.doc_file {
     position: absolute;
     bottom: 30px;
     right: 37px;
@@ -239,16 +239,16 @@ main{
     height: auto;
 }
 
-.tl-history{
+.tl-history {
     padding-top: 137px;
     width: 1141px;
 }
 
-.tl-his-title{
+.tl-his-title {
     text-align: right;
 }
 
-.tl-his-title h2{
+.tl-his-title h2 {
     text-transform: uppercase;
 }
 
@@ -285,14 +285,14 @@ main{
     text-align: center;
 }
 
-.grid_step{
+.grid_step {
     margin: 0 auto;
     max-width: 58px;
     font-size: 23px;
     line-height: 28px;
 }
 
-.grid_year{
+.grid_year {
     padding: 70.75px 0 12.17px;
     color: #0094CB;
     font-size: 24px;
@@ -300,16 +300,76 @@ main{
 }
 
 
-.uz_poz_heading{
+.uz_poz_heading {
     padding-top: 105px;
     width: 560px;
     margin: 0 auto;
     text-align: right;
 }
 
-.uz_poz_heading .section_title, .abrasion .section_title{
-   text-transform: uppercase;
+.uz_poz_heading .section_title,
+.abrasion .section_title {
+    text-transform: uppercase;
+}
+
+.abrasion{
+    margin-top: 558px;
 }
 
 
 
+.uz_poz_info {
+    padding-top: 8px;
+    display: flex;
+    column-gap: 168px;
+    justify-content: end;
+}
+
+
+.uz_poz_linegraph img {
+    
+    width: 1072px;
+    height: 328px;
+
+}
+
+.uz_poz_graph{
+    display: grid;
+    row-gap: 139px;
+}
+
+.ab_step_wrapper{
+    display: flex;
+    align-items: center;
+    margin-top: -41px;
+    margin-left: 7px;
+    column-gap: 155px;
+}
+
+
+.ab_step_box{
+    max-width: 260px;
+}
+
+.ab_step_title{
+    width: 95px;
+    text-align: center;
+    padding: 5px 0;
+    color: white;
+    font-size: 24px;
+    line-height: 29px;
+    border-radius: 15px 0 0 15px;
+    background: linear-gradient(to right, #0094CB, #96DCCB);
+}
+
+.ab_step_img{
+    width: 46px;
+    height: 46px;
+    margin-top: 16.5px;
+}
+
+.ab_step_desc{
+    margin-top: 14px;
+    font-size: 24px;
+    line-height: 29px;
+}
