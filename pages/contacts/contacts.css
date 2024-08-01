@@ -65,6 +65,10 @@ body {
     padding: 0 50px 0 30px;
 }
 
+.ham_menu {
+    display: none;
+}
+
 .nav_logo_img {
     height: 60px;
     width: auto;
@@ -124,7 +128,7 @@ body {
 }
 
 
-.page_direction a{
+.page_direction a {
     cursor: pointer;
     color: initial;
     font-size: 16px;
@@ -161,6 +165,7 @@ body {
     padding-left: 12px;
     color: #0094CB;
 }
+
 .addr_contacts a:hover {
     color: #0095cb7e;
 }
@@ -224,4 +229,145 @@ body {
     padding: 22px 0 24px;
     font-size: 20px;
     line-height: 24.38px;
+}
+
+
+@media screen and (max-width: 425px) {
+
+    .container {
+        max-width: 375px;
+        padding: 0 16px;
+    }
+
+
+
+    .header {
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 14.5px;
+        height: 74px;
+        border-bottom: 1px solid #DADADA;
+    }
+
+    .nav_container {
+        border: none;
+        padding: 0 16px 0 12px;
+    }
+
+    .nav_container p {
+        max-width: 197px;
+    }
+
+    .ham_menu {
+        display: block;
+    }
+
+    .nav_logo_img {
+        height: 40px;
+        margin: 16px;
+    }
+
+    .nav_right {
+        display: none;
+    }
+
+
+    .page_title {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        padding: 12px 0;
+    }
+
+    .page_direction {
+        order: 1;
+
+    }
+
+    .dir_icon {
+        rotate: -90deg;
+    }
+
+    .page_title p {
+        padding-top: 24px;
+        font-size: 22px;
+        line-height: 32px;
+        order: 2;
+    }
+
+
+    .page_direction a {
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 17.07px;
+    }
+
+
+    .addr_box {
+        padding: 24px 0;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .addr_contacts {
+        width: 100%;
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+
+    .addr_name {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .addr_info {
+        width: 100%;
+        padding: 15px 0;
+    }
+
+    .addr_info p {
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 19px;
+    }
+
+    .addr_info address {
+        padding-top: 10px;
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+
+    .addr_map {
+
+        margin: 24px auto;
+        width: 100%;
+    }
+
+
+
+
+
+
+    .footer {
+        position: relative;
+    }
+
+    .footer_img {
+        width: 176px;
+        height: 30px;
+    }
+
+    .footer_rights {
+        padding: 30px 0 15px;
+        font-size: 16px;
+        line-height: 19.5px;
+    }
+
+    .footer_warning {
+        font-size: 12px;
+        line-height: 14.63px;
+    }
+
 }
