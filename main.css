@@ -390,14 +390,14 @@ main {
 }
 
 
-.news_box_content{
+.news_box_content {
     display: flex;
     align-items: start;
     column-gap: 16px;
     position: relative;
 }
 
-.nbc_date{
+.nbc_date {
     text-align: center;
     font-size: 20px;
     line-height: 24px;
@@ -405,7 +405,7 @@ main {
 
 
 
-.nbc_date_day{
+.nbc_date_day {
     font-weight: 700;
     padding: 7px 20px 10px;
     border: 3px solid #707070;
@@ -413,43 +413,75 @@ main {
 }
 
 
-.nbc_text{
+.nbc_text {
     line-height: 19.5px;
     font-weight: 600;
 }
 
-.achievement{
+.achievement {
     padding: 380px 0 620px;
-    background-image: url(./img/humo.png), url(./img/dg-logo.svg);
+    background-image: url(./img/dg-logo.svg), url(./img/humo.png);
     background-repeat: no-repeat;
-    background-size: cover, 1110px 780px;
-    background-position:50% 120px, 50%;
+    background-size: 1110px 780px, cover;
+    background-position: 50%, 50% 120px;
 }
 
-.ach_wrapper{
+
+.ach_wrapper {
     display: flex;
     justify-content: center;
     column-gap: 460px;
 }
 
-.ach_wrap_box{
+.ach_wrap_box {
     text-transform: uppercase;
     display: flex;
     align-items: start;
-column-gap: 160px;
-text-align: center;
-color: #0094CB;
-font-size: 19px;
-line-height: 23px;
+    column-gap: 160px;
+    text-align: center;
+    color: #0094CB;
+    font-size: 19px;
+    line-height: 23px;
 
 }
 
-.ach_box_cont{
+.ach_box_cont {
     max-width: 160px;
 }
 
-.ach_cont_span{
+.ach_cont_span {
     font-weight: 700;
     font-size: 69px;
     line-height: 84px;
+}
+
+.DGRU_text{
+    padding: 57px 136px ;
+    margin-top: -200px;
+    background: linear-gradient(#ffffff00 0%, rgb(255, 255, 255) 30%);}
+
+.DGRU_text p{
+    text-transform: uppercase;
+    max-width: 310px;
+font-size: 19px;
+line-height: 23.16px;
+
+}
+
+
+footer{
+    background-color: #fff;
+    text-align: center;
+padding-bottom: 120px;
+}
+
+.footer_img{
+    width: 217.08px;
+    height: 36.88px;    
+}
+
+.footer_rights{
+    padding: 22px 0 24px;
+font-size: 20px;
+line-height: 24.38px;
 }
