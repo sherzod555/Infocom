@@ -79,6 +79,11 @@ body {
     column-gap: 20px;
 }
 
+.nav_menu li:hover {
+    cursor: pointer;
+    color: #0094CB;
+}
+
 .lang_menu {
     row-gap: 12px;
     display: flex;
@@ -109,6 +114,11 @@ body {
     flex-direction: column;
     row-gap: 39px;
     z-index: 100;
+}
+
+.sm_list li:hover {
+    cursor: pointer;
+    scale: 115%;
 }
 
 
@@ -230,6 +240,10 @@ main {
     padding: 30px 37px;
     border: 1px solid #dadada;
     background-color: #ffffff;
+}
+
+.doc_box:hover {
+    box-shadow: 0px 0px 30px #0095cb3d inset;
 }
 
 .doc_file {
@@ -380,6 +394,12 @@ main {
     max-width: 502px;
 }
 
+.news_box:hover img{
+    cursor: pointer;
+opacity: 80%;
+
+}
+
 
 .news_box_content {
     border-radius: 20px;
@@ -387,15 +407,12 @@ main {
     margin-top: -65px;
     background-color: #ffffff;
     padding: 37px 15px 20px 32px;
-}
-
-
-.news_box_content {
     display: flex;
     align-items: start;
     column-gap: 16px;
     position: relative;
 }
+
 
 .nbc_date {
     text-align: center;
@@ -455,33 +472,34 @@ main {
     line-height: 84px;
 }
 
-.DGRU_text{
-    padding: 57px 136px ;
+.DGRU_text {
+    padding: 57px 136px;
     margin-top: -200px;
-    background: linear-gradient(#ffffff00 0%, rgb(255, 255, 255) 30%);}
+    background: linear-gradient(#ffffff00 0%, rgb(255, 255, 255) 30%);
+}
 
-.DGRU_text p{
+.DGRU_text p {
     text-transform: uppercase;
     max-width: 310px;
-font-size: 19px;
-line-height: 23.16px;
+    font-size: 19px;
+    line-height: 23.16px;
 
 }
 
 
-footer{
+footer {
     background-color: #fff;
     text-align: center;
-padding-bottom: 120px;
+    padding-bottom: 120px;
 }
 
-.footer_img{
+.footer_img {
     width: 217.08px;
-    height: 36.88px;    
+    height: 36.88px;
 }
 
-.footer_rights{
+.footer_rights {
     padding: 22px 0 24px;
-font-size: 20px;
-line-height: 24.38px;
+    font-size: 20px;
+    line-height: 24.38px;
 }
