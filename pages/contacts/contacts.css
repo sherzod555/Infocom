@@ -366,8 +366,11 @@ body {
     }
 
     .footer_warning {
+        margin: 0 auto;
+        max-width: 285px;
         font-size: 12px;
         line-height: 14.63px;
     }
+
 
 }
