@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+li {
+    list-style: none;
+}
+
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+
+.container {
+    max-width: 1590px;
+    margin: 0 auto;
+
+}
+
+.nav_bar {
+    padding: 38px 50px 38px 170px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    text-transform: uppercase;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 23.16px;
+}
+
+
+.nav_menu {
+    display: flex;
+    align-items: center;
+    column-gap: 18px;
+}
+
+.nav_menu li:hover {
+    cursor: pointer;
+    color: #0094CB;
+}
+
+.nav_right {
+    display: flex;
+    align-items: center;
+    column-gap: 51px;
+}
+
+.lang_menu {
+    row-gap: 12px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ham_menu {
+    display: none;
+}
+
+
+.intro_aside {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 140px;
+
+    background-color: #fff;
+    padding: 37px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sm_list {
+    display: grid;
+    align-items: center;
+    row-gap: 40px;
+}
+
+.sm_list li {
+    transition: scale 0.5s;
+}
+
+.sm_list li:hover {
+    cursor: pointer;
+    scale: 110%;
+}
+
+
+
+
+.intro_banner {
+    padding-left: 140px;
+    background-image: url(../../img/mygov_banner.png);
+    background-repeat: repeat-x;
+    width: 100%;
+    height: 904px;
+}
+
+.page_direction {
+    justify-content: end;
+    padding: 20px 0 30px;
+    display: flex;
+    align-items: center;
+    column-gap: 12px;
+}
+
+.dir_icon {
+    rotate: -90deg;
+}
+
+.intro_banner_content {
+    justify-content: center;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 24px;
+    text-align: center;
+    max-width: 1035px;
+    text-transform: uppercase;
+}
+
+.banner_content_title {
+    color: #0094CB;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 61.32px;
+}
+
+.banner_content_desc {
+    font-size: 19px;
+    line-height: 27.74px;
+}
+
+.banner_content_button {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19.5px;
+    padding: 14px 25px 14px 25px;
+    border: none;
+    color: #fff;
+    background-color: #0094CB;
+    border-radius: 15px;
+    cursor: pointer;
+}

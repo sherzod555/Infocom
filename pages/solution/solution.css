@@ -144,6 +144,9 @@ body {
 }
 
 
+
+
+
 .sol_aside_menu {
     display: grid;
     row-gap: 15px;
@@ -348,6 +351,10 @@ body {
 
     .main_section {
         flex-direction: column;
+    }
+    aside{
+        width: 100%;
+        overflow-x: hidden;
     }
 
 
