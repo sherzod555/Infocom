@@ -170,3 +170,138 @@ body {
     border-radius: 15px;
     cursor: pointer;
 }
+
+
+.mg_main_section {
+    padding-top: 60px;
+    display: grid;
+    row-gap: 60px;
+}
+
+
+.adv_title,
+.posc_text_title {
+    color: #0094CB;
+    text-transform: uppercase;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 51.2px;
+    text-align: center;
+}
+
+.adv_box_wrapper {
+    margin-top: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 80px;
+}
+
+.adv_box {
+    max-width: 360px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.adv_box_img {
+    width: 100px;
+    height: 100px;
+}
+
+.adv_box_desc {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 29.2px;
+    text-align: center;
+    padding: 24px 24px 28px;
+}
+
+.sin_por_content {
+    display: grid;
+    row-gap: 30px;
+}
+
+.sp_con_part1 {
+    display: flex;
+    align-items: start;
+    column-gap: 45px;
+}
+
+.spc_part1_text,
+.pos_content_text,
+.pos_content_wrapper {
+    display: grid;
+    row-gap: 24px;
+}
+
+.text_title {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 46.72px;
+    color: #0094CB;
+}
+
+.text_desc,
+.posc_text_desc {
+    font-size: 20px;
+    line-height: 29.2px;
+}
+
+.posc_text_title {
+    text-align: left;
+}
+
+.posc_text_desc {
+    max-width: 1104px;
+}
+
+
+.posc_wr_box {
+    width: 100%;
+    padding: 25px 30px;
+    display: flex;
+    align-items: center;
+    column-gap: 25px;
+    background-color: #F3F5F8;
+    border-radius: 20px;
+}
+
+.pos_content {
+    display: grid;
+    row-gap: 45px;
+}
+
+.wr_box_img {
+    height: 50px;
+    width: auto;
+}
+
+.wr_box_text {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35.04px;
+    color: #0094CB;
+}
+
+.footer {
+    margin-top: 80px;
+    width: 100%;
+    border-top: 1px solid #dadada;
+    background-color: #fff;
+    text-align: center;
+    padding: 30px 0;
+
+}
+
+.footer_img {
+    width: 217.08px;
+    height: 36.88px;
+}
+
+.footer_rights {
+    padding: 22px 0 24px;
+    font-size: 20px;
+    line-height: 24.38px;
+}
