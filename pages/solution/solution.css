@@ -165,7 +165,7 @@ body {
     font-size: 14px;
     font-weight: 600;
     line-height: 17.07px;
-    letter-spacing: 0.10000000149011612px;
+    letter-spacing: 0.1px;
 }
 
 .sol_aside_menu_list:hover {
@@ -203,7 +203,7 @@ body {
     font-size: 28px;
     font-weight: 700;
     line-height: 34.13px;
-    letter-spacing: 0.10000000149011612px;
+    letter-spacing: 0.1px;
 }
 
 
@@ -211,7 +211,7 @@ body {
     margin-top: 15px;
     font-size: 18px;
     line-height: 21.94px;
-    letter-spacing: 0.10000000149011612px;
+    letter-spacing: 0.1px;
     max-width: 467px;
 }
 
@@ -242,7 +242,7 @@ body {
     font-size: 16px;
     font-weight: 700;
     line-height: 19.5px;
-    letter-spacing: 0.10000000149011612px;
+    letter-spacing: 0.1px;
     color: #fff;
 }
 
